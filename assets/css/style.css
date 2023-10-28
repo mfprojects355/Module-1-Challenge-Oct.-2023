@@ -1,0 +1,208 @@
+/* The wild card selector is a universal selector that allows 
+for the whole webpage to have a basic default styling in
+terms of padding margin and box size */
+
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* The body element belkow is setting the default color of the body 
+of the whole page */
+body {
+    background-color: #d9dcd6;
+}
+
+/* the header element below was a class  but we modified it to a basic 
+header element i.e. we donot need the user defined class 
+at all we can simply use the heaqder element to specify the stylizatiuon */
+
+
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* the h1 below is modifying or styling all the h1 headings 
+to a default style as specified between the braces */
+
+h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* The span element below is specifying a default color to all the span elements
+within the html */
+
+span{
+    color: #d9dcd6;
+}
+
+/* the following is specifying the default style for all the
+unordered lists within the html */
+
+ul {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/*
+
+this below piece of code was unnecesary so we 
+commented it out
+
+.header div ul {
+    list-style-type: none;
+} 
+
+*/
+
+
+/* this code below is setting the default style 
+to list items in the html */
+
+li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* the below code is styling the anchor tag by
+specifying the default color to all the anchor tags */
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+/* The following p tag set the default font size
+for all the paragraphs within the html */
+
+p {
+    font-size: 16px;
+}
+
+/* The hero class below is specifying the overall
+background image for the webpage */
+
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* setting image position to the left */
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* setting image position to the right */
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* specifying the content class 's
+styling " */
+
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* styling for the denefits class */
+
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/*styling the child of the div that 
+is assigned the benefits class */
+
+.benefits section  {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/*styling the h3 element of the div that 
+is assigned the benefits class with in a section */
+
+.benefits section h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*styling the image element of the div that 
+is assigned the benefits class with in a section */
+
+.benefit section img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+
+/* this "div section" below is modifying and or 
+styling the search engine optimization, 
+online reputation management and social 
+media marketing sections of the page */
+
+div section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*styling all the image elements which has 
+section as its parent */
+section img {
+    max-height: 200px;
+}
+
+/* styling all the h2 heading element which has 
+section as its parent */
+section h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* styling the footer of the webpage */
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* styling all the h2 elements of the 
+footer class */
+
+.footer h2 {
+    font-size: 20px;
+}
